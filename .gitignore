@@ -1,0 +1,9 @@
+.ideas/
+manifest.yaml
+
+# chart dependencies
+**/charts/*.tgz
+
+# common dev
+scratch
+venv
