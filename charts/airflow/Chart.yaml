@@ -1,0 +1,15 @@
+apiVersion: v2
+name: airflow
+description: Deploy Airflow on OpenShift
+type: application
+kubeVersion: ">= 1.19.0"
+
+maintainers:
+- name: codekow
+
+version: "0.0.1"
+
+appVersion: "2.5.1"
+
+home: https://github.com/codekow/helm-charts
+icon: https://img.icons8.com/color/256/openshift.png
