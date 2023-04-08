@@ -3,6 +3,21 @@ entries:
   hello-openshift:
   - apiVersion: v2
     appVersion: 1.2.0
+    created: "2023-04-08T21:26:26.957961031Z"
+    description: A hometown original recipe - hello-openshift
+    digest: 4154919b010995a6abb701ecf2a1c22c45d42dbdac6c9ff6fd10324e773f7580
+    home: https://github.com/codekow/helm-charts
+    icon: https://img.icons8.com/color/256/openshift.png
+    kubeVersion: '>= 1.19.0'
+    maintainers:
+    - name: codekow
+    name: hello-openshift
+    type: application
+    urls:
+    - https://codekow.github.io/helm-charts/hello-openshift-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.2.0
     created: "2023-04-08T20:55:18.111347954Z"
     description: A hometown original recipe - hello-openshift
     digest: de193b5f943800451151e89cbb33609a9f58ceff2f22d1de25d30d476419d8ab
@@ -16,4 +31,4 @@ entries:
     urls:
     - https://codekow.github.io/helm-charts/hello-openshift-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-08T20:55:18.109786439Z"
+generated: "2023-04-08T21:26:26.956377719Z"
