@@ -1,0 +1,10 @@
+.ideas/
+manifest.yaml
+dictionary.dic
+
+# chart dependencies
+**/charts/*.tgz
+
+# common dev
+scratch
+venv
