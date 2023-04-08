@@ -1,0 +1,14 @@
+apiVersion: v2
+type: application
+name: hello-openshift
+description: A hometown original recipe - hello-openshift
+
+version: "0.0.1"
+appVersion: "1.2.0"
+kubeVersion: ">= 1.19.0"
+
+home: https://github.com/codekow/helm-charts
+icon: https://img.icons8.com/color/256/openshift.png
+
+maintainers:
+- name: codekow
