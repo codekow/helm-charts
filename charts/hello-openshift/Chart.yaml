@@ -3,7 +3,7 @@ type: application
 name: hello-openshift
 description: A hometown original recipe - hello-openshift
 
-version: "0.0.1"
+version: "0.0.2"
 appVersion: "1.2.0"
 kubeVersion: ">= 1.19.0"
 

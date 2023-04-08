@@ -34,6 +34,9 @@ Create chart name and version as used by the chart label.
 Common labels
 */}}
 {{- define "hello-openshift.labels" -}}
+app: {{ include "hello-openshift.name" . }}
+app.kubernetes.io/component: {{ .Release.Name }}
+app.kubernetes.io/part-of: {{ include "hello-openshift.name" . }}
 helm.sh/chart: {{ include "hello-openshift.chart" . }}
 {{ include "hello-openshift.selectorLabels" . }}
 {{- if .Chart.AppVersion }}
@@ -46,8 +49,8 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 Selector labels
 */}}
 {{- define "hello-openshift.selectorLabels" -}}
-app.kubernetes.io/name: {{ include "hello-openshift.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
+app.kubernetes.io/name: {{ include "hello-openshift.name" . }}
 {{- end }}
 
 {{/*
